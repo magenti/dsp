@@ -53,14 +53,15 @@ In addition, all books I am reading on Machine Learning have codes written in Py
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
 >>  There are several way to check which Python version is installed on a computer depending on if python is already running or not:
-1)	from the command line you can run:
+>> 1)	from the command line you can run:
 
 ```
 python --version
 ```
 
-2)	when you run python or iPython, the very first line in the header specifies which version of python is running. 
-3)	If python is running, you can run the following:
+>> 2)	when you run python or iPython, the very first line in the header specifies which version of python is running. 
+
+>> 3)	If python is running, you can run the following:
 ```
 import platform
 platform.python_version()
