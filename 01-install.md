@@ -60,9 +60,9 @@ python --version
 ```
 
 >> 2)	when you run python or iPython, the very first line in the header specifies which version of python is running. 
-in my case: Python 2.7.11 
+in my case:  
 
->>|Anaconda 2.5.0 (x86_64)| (default, Dec  6 2015, 18:57:58) 
+>> Python 2.7.11|Anaconda 2.5.0 (x86_64)| (default, Dec  6 2015, 18:57:58) 
 
 >> 3)	If python is running, you can run the following:
 ```
