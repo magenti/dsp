@@ -54,7 +54,6 @@ How can you check the version of Python installed if you happen to be on an unfa
 
 >>  There are several way to check which Python version is installed on a computer depending on if python is already running or not:
 >> 1)	from the command line you can run:
-
 ```
 python --version
 ```
