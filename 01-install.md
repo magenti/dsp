@@ -42,17 +42,28 @@ cross-platform.
 
 ---
 
-###Q1. Python Version 2 or 3
-
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> My understanding is that both releases have own advantages but as a newbie in Python maybe version 2 is a better choice than version 3 to start with. 
+While python 3 is the future of this programming language, some older libraries and packages may only be working in Python 2.
+In addition, all books I am reading on Machine Learning have codes written in Python 2. To ensure reproducibility, I preferred to install version 2.7  
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>  There are several way to check which Python version is installed on a computer depending on if python is already running or not:
+1)	from the command line you can run "python --version". 
+2)	when you run python or iPython, the very first line in the header specifies which version of python is running. 
+3)	If python is running, you can run the following:
+
+import platform
+platform.python_version()
+
+or 
+
+import sys
+sys.version
 
  
 
