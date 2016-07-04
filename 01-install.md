@@ -56,12 +56,9 @@ How can you check the version of Python installed if you happen to be on an unfa
 1)	from the command line you can run "python --version". 
 2)	when you run python or iPython, the very first line in the header specifies which version of python is running. 
 3)	If python is running, you can run the following:
-
 import platform
 platform.python_version()
-
 or 
-
 import sys
 sys.version
 
